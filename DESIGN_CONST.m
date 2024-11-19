@@ -4,7 +4,7 @@ classdef DESIGN_CONST
     properties (Constant = true)
         T = 1/100e6; % Clock rate
         Td = 1/1e6; % Data rate
-        Tsim = 1/1e9; % Simulation rate
+        Tsim = 1/9e9; % Simulation rate
         h = 0.5;
         BTd = 0.3;
         B = 0.3 / DESIGN_CONST.Td;
